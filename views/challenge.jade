@@ -52,7 +52,7 @@
                 a.button.large.button-success(ng-click='shareFatherDay()', href='#') Share it!
 
         .inner.center(ng-if='completed && thankYouCard')
-            div(ng-if='user')
+            div(ng-if='!user')
 
                 img(src='/assets/layout/father-day-closed.png')
 
@@ -63,7 +63,7 @@
 
                 a.button.large.button-success(ng-click='login()', href='#') Log In / Sign Up
 
-            div(ng-if='!user')
+            div(ng-if='user')
 
                 img(src='/assets/layout/father-day-open.png')
 
