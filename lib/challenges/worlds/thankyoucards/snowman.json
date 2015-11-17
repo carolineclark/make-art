@@ -1,0 +1,95 @@
+{
+    "id": "snowman",
+    "title": "Snowman",
+    "cover": "thankyoucards/snowman.png",
+    "description": "Draw a snowman using circle and loops!",
+    "startAt": 2,
+    "thankYouCard": true,
+    "steps": [
+        {
+            "hint": "Create a nice dark sky - **type** `background darkblue`",
+            "solution": "background darkblue"
+        },
+        {
+            "hint": "Move the cursor by using `moveTo 250, 400`",
+            "solution": "moveTo 250, 400"
+        },
+        {
+            "hint": "Set the stroke to zero so we have no outlines. **Type** `stroke 0`",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Next we'll be drawing snow, so **type** `color white`",
+            "solution": "color white"
+        },
+        {
+            "hint": "Create a big base for your snowman. **Type** `circle 150`",
+            "solution": "circle 150"
+        },
+        {
+            "hint": "Move up by 200 using `move 0, -200`",
+            "solution": "move 0, -200"
+        },
+        {
+            "hint": "Add a light gray stroke so we can see when the circles overlap. **Type** `stroke lightgray, 4`",
+            "solution": "stroke lightgray, 4"
+        },
+        {
+            "hint": "Make the head for your snowman with a `circle` of size `100`",
+            "solution": "circle 100"
+        },
+        {
+            "hint": "We no longer need an outline, so remove it with `stroke 0`",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Now we want to draw the face. From where you are now, `move -50, -20`",
+            "solution": "move -50, -20"
+        },
+        {
+            "hint": "First we'll draw the eyes. Change the `color` to `black`.",
+            "solution": "color black"
+        },
+        {
+            "hint": "Make the first eye with `circle 10`.",
+            "solution": "circle 10"
+        },
+        {
+            "hint": "Now move on to the next eye. **Type** `move 100, 0`",
+            "solution": "move 100, 0"
+        },
+        {
+            "hint": "Make the next eye with a `circle` of size `10`",
+            "solution": "circle 10"
+        },
+        {
+            "hint": "Next, the nose. `Move` the cursor by `-50, 30`",
+            "solution": "move -50, 30"
+        },
+        {
+            "hint": "Make the `color orange`",
+            "solution": "color orange"
+        },
+        {
+            "hint": "The carrot nose should be made with a `circle 15`",
+            "solution": "circle 15"
+        },
+        {
+            "hint": "Finally we're going to make more snow. Change the `color` to `white`",
+            "solution": "color white"
+        },
+        {
+            "hint": "Start off a for loop with `for i in [ 0 .. 50 ]`",
+            "solution": "for i in [ 0 .. 50 ]"
+        },
+        {
+            "hint": "Inside this loop, move the crosshair to a random position using `moveTo (random 1, 500), (random 1, 500)`",
+            "solution": "    moveTo (random 1, 500), (random 1, 500)"
+        },
+        {
+            "hint" : "Create a circle at each section using `circle 5`",
+            "solution": "    circle 5"
+        }
+    ],
+    "completion_text": "Awesome snowman!"
+}
